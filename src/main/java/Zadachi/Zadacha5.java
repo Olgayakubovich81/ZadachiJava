@@ -23,5 +23,35 @@ public class Zadacha5 {
             System.out.println("Треугольник неравнобедренный");
 
         }
+
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Введите значение длины треугольника: ");
+
+        double sideA;
+        double sideB;
+        double sideC;
+        while (true) {
+            System.out.println(" Введите значение стороны А ");
+            sideA = sc.nextDouble();
+            System.out.println("Введите значение стороны B");
+            sideB = sc.nextDouble();
+            System.out.println("Введите значение стороны C");
+            sideC = sc.nextDouble();
+
+            if (sideA > 0 && sideB > 0 && sideC > 0) {
+                break;
+            }
+
+            System.out.println(" Пожалуйста введите правильное число ");
+        }
+        //System.out.println(sideA + " " + sideB + " " + sideC);
+        if (sideA == sideB || sideA == sideC || sideB == sideC) {
+            System.out.println("Поздраввляю! Ваш треугольник равнобедренный!");
+        } else {
+            System.out.println("Ваш треугольник не совсем равнобедренный");
+        }
+
+
     }
+
 }

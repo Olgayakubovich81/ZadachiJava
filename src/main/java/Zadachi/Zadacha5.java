@@ -9,22 +9,22 @@ import java.util.Scanner;
 public class Zadacha5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("Введите число: ");
+//        int a = sc.nextInt();
+//        System.out.println("Введите число: ");
+//        int b = sc.nextInt();
+//        System.out.println("Введите число: ");
+//        int c = sc.nextInt();
+//
+//        if (a == b || a == c || b == c) {
+//            System.out.println("Треугольник равнобедренный");
+//        } else {
+//            System.out.println("Треугольник неравнобедренный");
+//
+//        }
 
-        System.out.println("Введите число: ");
-        int a = sc.nextInt();
-        System.out.println("Введите число: ");
-        int b = sc.nextInt();
-        System.out.println("Введите число: ");
-        int c = sc.nextInt();
 
-        if (a == b || a == c || b == c) {
-            System.out.println("Треугольник равнобедренный");
-        } else {
-            System.out.println("Треугольник неравнобедренный");
-
-        }
-
-        Scanner sc1 = new Scanner(System.in);
         System.out.println("Введите значение длины треугольника: ");
 
         double sideA;

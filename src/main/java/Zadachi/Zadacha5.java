@@ -17,7 +17,7 @@ public class Zadacha5 {
         System.out.println("Введите число: ");
         int c = sc.nextInt();
 
-        if (a == b && a != c && b != c) {
+        if (a == b || a == c && b == c) {
             System.out.println("Треугольник равнобедренный");
         } else {
             System.out.println("Треугольник неравнобедренный");
